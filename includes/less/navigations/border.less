@@ -1,0 +1,68 @@
+/*------------------------------------------------------------------
+[Pagination]
+-------------------------------------------------------------------*/
+
+		.newscodes-pagination ul li span,
+		.newscodes-pagination ul li a {
+			display:inline-block;
+			.create-border(@@nc_navigation_font_color);
+			border-radius:2px;
+			padding:3px 6px;
+			box-shadow: 0 0 4px -2px #000;
+		}
+			.newscodes-pagination ul li a:hover {
+				.create-color(@@nc_navigation_hover);
+				border-color:@@nc_navigation_hover;
+			}
+		.newscodes-pagination ul li span.current {
+			.create-lightness-color(@@nc_navigation_font_color);
+			.create-lightness-background-color(@@nc_navigation_font_color);
+		}
+
+
+/*------------------------------------------------------------------
+[Load More]
+-------------------------------------------------------------------*/
+
+	.newscodes-load-more {
+
+	}
+		.newscodes-load-more span {
+			cursor:pointer;
+			display:inline-block;
+			.create-border(@@nc_navigation_font_color);
+			border-radius:2px;
+			padding:12px 36px;
+			box-shadow: 0 0 4px -2px #000;
+			-webkit-transition:color 0.3s ease,background-color 0.3s ease,border-color 0.3s ease,box-shadow 0.3s ease;
+			transition: color 0.3s ease,background-color 0.3s ease,border-color 0.3s ease,box-shadow 0.3s ease;
+		}
+			.newscodes-load-more span:hover {
+				.create-color(@@nc_navigation_hover);
+				border-color:@@nc_navigation_hover;
+			}
+
+
+/*------------------------------------------------------------------
+[Read More]
+-------------------------------------------------------------------*/
+
+	ul.newscodes-wrap li a.nc-read-more {
+		display:inline-block;
+		.create-color(@@nc_navigation_font_color);
+		.create-border(@@nc_navigation_font_color);
+		border-radius:2px;
+		padding:3px 5px;
+		margin-left:12px;
+		box-shadow: 0 0 4px -2px #000;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif!important;
+		font-size:14px;
+		line-height:14px;
+		letter-spacing:0;
+		font-weight:normal;
+		text-decoration:none;
+	}
+		ul.newscodes-wrap li a.nc-read-more:hover {
+			.create-color(@@nc_navigation_hover);
+			border-color:@@nc_navigation_hover;
+		}

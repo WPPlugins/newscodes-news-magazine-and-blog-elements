@@ -1,0 +1,1 @@
+<span class="nc-format"><?php nc_post_format(); ?></span>

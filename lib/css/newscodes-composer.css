@@ -1,0 +1,46 @@
+/*------------------------------------------------------------------
+[Newscodes Admin JS Composer]
+-------------------------------------------------------------------*/
+
+#nc-composer-filters-default {
+	display:none;
+}
+
+#nc-filter-manager-json,
+.vc_shortcode-param[data-vc-shortcode-param-name="filters"],
+.vc_shortcode-param[data-vc-shortcode-param-name="filter_terms"],
+.vc_shortcode-param[data-vc-shortcode-param-name="meta_keys"],
+.vc_shortcode-param[data-vc-shortcode-param-name="meta_values"],
+.vc_shortcode-param[data-vc-shortcode-param-name="meta_compares"],
+.vc_shortcode-param[data-vc-shortcode-param-name="meta_types"] {
+	visibility:hidden;
+	height:0;
+	position:absolute;
+	z-index:-1;
+}
+
+#nc-composer-filters-navigation {
+	margin-bottom:10px;
+}
+
+	#nc-composer-filters-navigation .button {
+		margin-right:10px;
+	}
+
+.nc-composer-filter {
+	background-color:#fafafa;
+	padding:5px 5px 3px 5px;
+	border-radius:2px;
+	border:1px solid #ccc;
+	margin-top:5px;
+	box-sizing:border-box;
+}
+	.nc-composer-filter input,
+	.nc-composer-filter select {
+		margin-bottom:2px
+	}
+
+#nc-remove-filter {
+	float: right;
+	margin-bottom: 5px;
+}

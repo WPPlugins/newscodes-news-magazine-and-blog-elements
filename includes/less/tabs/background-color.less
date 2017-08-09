@@ -1,0 +1,21 @@
+/*------------------------------------------------------------------
+[Newscodes Tabs Navigation]
+-------------------------------------------------------------------*/
+
+	&.nc-multi-navigation ul.nc-multi-terms li {
+		cursor:pointer;
+		display:inline-block;
+		.create-contrast-color(@@nc_tabs_font_color);
+		.create-background-color(@@nc_tabs_font_color);
+		border-radius:2px;
+		margin:0 6px 6px 0;
+		padding:12px 36px;
+		box-shadow: 0 0 4px -2px #000;
+		-webkit-transition:color 0.3s ease,background-color 0.3s ease,border-color 0.3s ease,box-shadow 0.3s ease;
+		transition: color 0.3s ease,background-color 0.3s ease,border-color 0.3s ease,box-shadow 0.3s ease;
+	}
+		&.nc-multi-navigation ul.nc-multi-terms li:hover,
+		&.nc-multi-navigation ul.nc-multi-terms li.current {
+			.create-contrast-color(@@nc_tabs_hover);
+			.create-background-color(@@nc_tabs_hover);
+		}

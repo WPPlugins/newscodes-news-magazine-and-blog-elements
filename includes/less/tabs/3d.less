@@ -1,0 +1,33 @@
+/*------------------------------------------------------------------
+[Newscodes Tabs Navigation]
+-------------------------------------------------------------------*/
+
+	&.nc-multi-navigation ul.nc-multi-terms li {
+		display:inline-block;
+		cursor:pointer;
+		padding:12px 24px;
+		margin:0 6px 6px 0;
+		height: auto;
+		white-space: normal;
+		.create-box-shadow-3d(@@nc_tabs_font_color);
+		.create-background-color(@@nc_tabs_font_color);
+		.create-border-color-3d(@@nc_tabs_font_color);
+		.create-contrast-color(@@nc_tabs_font_color);
+		.create-text-shadow-3d(@@nc_tabs_font_color);
+		vertical-align: top;
+		border-width: 1px;
+		border-style: solid;
+		border-radius: 3px;
+		box-sizing: border-box;
+		transition-property: border,background,color;
+		transition-duration: .05s;
+		transition-timing-function: ease-in-out;
+	}
+		&.nc-multi-navigation ul.nc-multi-terms li:hover,
+		&.nc-multi-navigation ul.nc-multi-terms li.current {
+			.create-box-shadow-3d(@@nc_tabs_hover);
+			.create-background-color(@@nc_tabs_hover);
+			.create-border-color-3d(@@nc_tabs_hover);
+			.create-contrast-color(@@nc_tabs_hover);
+			.create-text-shadow-3d(@@nc_tabs_hover);
+		}

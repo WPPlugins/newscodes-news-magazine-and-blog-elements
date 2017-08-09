@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu-L.eot');
+  src: font-url('Ubuntu-L.svg#UbuntuLight') format('svg'),
+     font-url('Ubuntu-L.eot?#iefix') format('embedded-opentype'),
+     font-url('Ubuntu-L.woff') format('woff'),
+     font-url('Ubuntu-L.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu-LI.eot');
+  src: font-url('Ubuntu-LI.svg#UbuntuLightItalic') format('svg'),
+     font-url('Ubuntu-LI.eot?#iefix') format('embedded-opentype'),
+     font-url('Ubuntu-LI.woff') format('woff'),
+     font-url('Ubuntu-LI.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu-R.eot');
+  src: font-url('Ubuntu-R.svg#UbuntuRegular') format('svg'),
+     font-url('Ubuntu-R.eot?#iefix') format('embedded-opentype'),
+     font-url('Ubuntu-R.woff') format('woff'),
+     font-url('Ubuntu-R.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu-RI.eot');
+  src: font-url('Ubuntu-RI.svg#UbuntuItalic') format('svg'),
+     font-url('Ubuntu-RI.eot?#iefix') format('embedded-opentype'),
+     font-url('Ubuntu-RI.woff') format('woff'),
+     font-url('Ubuntu-RI.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu-M.eot');
+  src: font-url('Ubuntu-M.svg#UbuntuMedium') format('svg'),
+     font-url('Ubuntu-M.eot?#iefix') format('embedded-opentype'),
+     font-url('Ubuntu-M.woff') format('woff'),
+     font-url('Ubuntu-M.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu-MI.eot');
+  src: font-url('Ubuntu-MI.svg#UbuntuMediumItalic') format('svg'),
+     font-url('Ubuntu-MI.eot?#iefix') format('embedded-opentype'),
+     font-url('Ubuntu-MI.woff') format('woff'),
+     font-url('Ubuntu-MI.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu-B.eot');
+  src: font-url('Ubuntu-B.svg#UbuntuBold') format('svg'),
+     font-url('Ubuntu-B.eot?#iefix') format('embedded-opentype'),
+     font-url('Ubuntu-B.woff') format('woff'),
+     font-url('Ubuntu-B.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: font-url('Ubuntu-BI.eot');
+  src: font-url('Ubuntu-BI.svg#UbuntuBoldItalic') format('svg'),
+     font-url('Ubuntu-BI.eot?#iefix') format('embedded-opentype'),
+     font-url('Ubuntu-BI.woff') format('woff'),
+     font-url('Ubuntu-BI.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}

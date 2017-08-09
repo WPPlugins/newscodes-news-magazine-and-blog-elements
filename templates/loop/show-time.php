@@ -1,0 +1,1 @@
+<span class="nc-show-time"><span class="nc-date-separator">@</span> <?php the_time(); ?></span>

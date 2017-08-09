@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTS55F.eot');
+    src: url('PTS55F.svg#pt_sansregular') format('svg'),
+         url('PTS55F.eot?#iefix') format('embedded-opentype'),
+         url('PTS55F.woff') format('woff'),
+         url('PTS55F.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTS75f.eot');
+    src: url('PTS75F.svg#pt_sansbold') format('svg'),
+         url('PTS75f.eot?#iefix') format('embedded-opentype'),
+         url('PTS75F.woff') format('woff'),
+         url('PTS75F.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTS76F.eot');
+    src: url('PTS76F.svg#pt_sansbold_italic') format('svg'),
+         url('PTS76F.eot?#iefix') format('embedded-opentype'),
+         url('PTS76F.woff') format('woff'),
+         url('PTS76F.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTS56F.eot');
+    src: url('PTS56F.svg#pt_sansitalic') format('svg'),
+         url('PTS56F.eot?#iefix') format('embedded-opentype'),
+         url('PTS56F.woff') format('woff'),
+         url('PTS56F.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
